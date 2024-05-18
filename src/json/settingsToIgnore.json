@@ -1,0 +1,9 @@
+[
+  "data.audioParser",
+  "data.peaks",
+  "data.title.text",
+  "data.json",
+  "data.showAdvancedSettings",
+  "data.elements.[].text",
+  "data.elements.[].peaks"
+]

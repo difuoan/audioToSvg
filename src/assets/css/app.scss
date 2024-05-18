@@ -1,0 +1,203 @@
+// BOOTSTRAP IMPORTS
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions", "~bootstrap/scss/variables";
+// BOOTSTRAP IMPORTS END
+@import "./variables";
+
+// BOOTSTRAP OVERRIDES START
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-dialog {
+  margin: 1.75rem;
+  max-width: 100%;
+  width: auto !important;
+}
+// BOOTSTRAP OVERRIDES END
+
+// SPINNER HELPER CLASSES
+@keyframes spin-clockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin-clockwise {
+  animation: spin-clockwise 1s linear infinite;
+}
+.spin-clockwise-on-hover:hover {
+  animation: spin-clockwise 1s linear infinite;
+}
+.spin-clockwise-on-focus:focus {
+  animation: spin-clockwise 1s linear infinite;
+}
+.spin-once-clockwise {
+  animation: spin-clockwise 1s linear;
+}
+.spin-once-clockwise-on-hover:hover {
+  animation: spin-clockwise 1s linear;
+}
+.spin-once-clockwise-on-focus:focus {
+  animation: spin-clockwise 1s linear;
+}
+@keyframes spin-counterclockwise {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.spin-counterclockwise {
+  animation: spin-counterclockwise 1s linear infinite;
+}
+.spin-counterclockwise-on-hover:hover {
+  animation: spin-counterclockwise 1s linear infinite;
+}
+.spin-counterclockwise-on-focus:focus {
+  animation: spin-counterclockwise 1s linear infinite;
+}
+.spin-once-counterclockwise {
+  animation: spin-counterclockwise 1s linear;
+}
+.spin-once-counterclockwise-on-hover:hover {
+  animation: spin-counterclockwise 1s linear;
+}
+.spin-once-counterclockwise-on-focus:focus {
+  animation: spin-counterclockwise 1s linear;
+}
+// SPINNER HELPER CLASSES END
+
+// CURSOR HELPER CLASSES
+.cursor-default {
+  cursor: default;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-grab {
+  cursor: grab;
+}
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+// CURSOR HELPER CLASSES END
+
+// CENTERING HELPER CLASSES START
+.vertical-center:parent {
+  position: relative;
+}
+.horizontal-center:parent {
+  position: relative;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.horizontal-center:parent {
+  position: relative;
+}
+.horizontal-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+// CENTERING HELPER CLASSES END
+
+// WHITE SPACE HELPER CLASSES START
+.white-space-nowrap {
+  white-space: nowrap;
+}
+// WHITE SPACE HELPER CLASSES END
+
+// BACKGROUND HELPER CLASSES START
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+// BACKGROUND HELPER CLASSES END
+
+// LINE HEIGHT HELPER CLASSES START
+.line-height-1 {
+  line-height: 1;
+}
+.line-height-2 {
+  line-height: 2;
+}
+// LINE HEIGHT HELPER CLASSES END
+
+// FONTAWESOME HELPER CLASSES START
+svg.background-square {
+  background: $gray-800;
+  padding: 0.1em;
+  color: white;
+  border-radius: $border-radius;
+}
+svg.background-round {
+  background: $gray-800;
+  height: 1em !important;
+  width: 1em !important;
+  padding: 0.1em;
+  color: white;
+  border-radius: 50%;
+}
+// FONTAWESOME HELPER CLASSES END
+
+// FORM CONTROL OVERRIDES START
+input[type="checkbox"].form-control {
+  width: 38px;
+  flex: none;
+  margin: auto;
+}
+input[type="range"].form-control {
+  -webkit-appearance: none;
+  height: 11px;
+  background: #d3d3d3;
+  outline: none;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+input[type="range"].form-control:hover,
+input[type="range"].form-control:focus {
+  background: #d3d3d3;
+}
+input[type="range"].form-control::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 11px;
+  height: 31px;
+  border-radius: $border-radius;
+  background: $primary;
+  cursor: grab;
+}
+input[type="range"].form-control::-webkit-slider-thumb:hover,
+input[type="range"].form-control:focus::-webkit-slider-thumb {
+  background: darken($primary, 15%);
+}
+input[type="range"].form-control::-moz-range-thumb {
+  width: 11px;
+  height: 31px;
+  border-radius: $border-radius;
+  background: $primary;
+  cursor: grab;
+}
+input[type="range"].form-control::-moz-range-thumb:hover,
+input[type="range"].form-control:focus::-moz-range-thumb {
+  background: darken($primary, 15%);
+}
+// FORM CONTROL OVERRIDES END
+
+// BODY CLASS START
+body.scrollingDisabled {
+  overflow-y: hidden;
+}
+// BODY CLASS END

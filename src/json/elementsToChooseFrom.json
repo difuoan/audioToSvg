@@ -1,0 +1,163 @@
+[
+  {
+    "name": "waveform",
+    "index": null,
+    "rotation": 0,
+    "fillStyle": "single color",
+    "peaks": [],
+    "useFill": true,
+    "lineCap": "butt",
+    "lineJoin": "round",
+    "useStroke": true,
+    "positiveOnly": false,
+    "gradient": {
+      "colors": ["#000000", "#ffffff"],
+      "stopOpacity": [1, 1],
+      "linearGradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5000,
+        "y2": 0
+      },
+      "radialGradient": {
+        "x1": 2500,
+        "y1": 1250,
+        "r1": 0,
+        "x2": 2500,
+        "y2": 1250,
+        "r2": 5000
+      },
+      "stops": [0, 1]
+    },
+    "function": "default",
+    "frequency": 1000,
+    "opacity": 1,
+    "amplitude": 1250,
+    "size": 1,
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "color": "#000000",
+    "width": 1,
+    "forceMinHeight": false
+  },
+  {
+    "name": "title",
+    "case": "normal",
+    "index": null,
+    "lineCap": "butt",
+    "textAlign": "center",
+    "lineJoin": "round",
+    "lineWidth": 0,
+    "useFill": true,
+    "useStroke": false,
+    "rotation": 0,
+    "size": 150,
+    "style": "normal",
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "variant": "normal",
+    "text": "",
+    "font": "Arial",
+    "color": "#000000",
+    "opacity": 1,
+    "fillStyle": "single color",
+    "gradient": {
+      "colors": ["#000000", "#ffffff"],
+      "stopOpacity": [1, 1],
+      "linearGradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5000,
+        "y2": 0
+      },
+      "radialGradient": {
+        "x1": 2500,
+        "y1": 1250,
+        "r1": 0,
+        "x2": 2500,
+        "y2": 1250,
+        "r2": 5000
+      },
+      "stops": [0, 1]
+    }
+  },
+  {
+    "name": "background",
+    "index": null,
+    "color": "#ffffff",
+    "function": "fill",
+    "opacity": 1,
+    "gradient": {
+      "colors": ["#000000", "#ffffff"],
+      "stopOpacity": [1, 1],
+      "linearGradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5000,
+        "y2": 0
+      },
+      "radialGradient": {
+        "x1": 2500,
+        "y1": 1250,
+        "r1": 0,
+        "x2": 2500,
+        "y2": 1250,
+        "r2": 5000
+      },
+      "stops": [0, 1]
+    }
+  },
+  {
+    "name": "detail",
+    "index": null,
+    "rotation": 0,
+    "peaks": [],
+    "frequency": 1000,
+    "forceMinHeight": false,
+    "function": "-",
+    "fillStyle": "single color",
+    "opacity": 1,
+    "lineWidth": 1,
+    "repeatingShapes": {
+      "peakIndex": 0,
+      "sizeMode": "default",
+      "shape": "square",
+      "selectedShapes": ["circle"],
+      "shapeMode": "single",
+      "spaceX": 50,
+      "spaceY": 50,
+      "sizeX": 25,
+      "sizeY": 25,
+      "offsetX": 5,
+      "offsetY": 5
+    },
+    "mandala": {
+      "points": 50,
+      "size": 1.25
+    },
+    "color": "#000000",
+    "gradient": {
+      "colors": ["#000000", "#ffffff"],
+      "stopOpacity": [1, 1],
+      "linearGradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5000,
+        "y2": 0
+      },
+      "radialGradient": {
+        "x1": 2500,
+        "y1": 1250,
+        "r1": 0,
+        "x2": 2500,
+        "y2": 1250,
+        "r2": 5000
+      },
+      "stops": [0, 1]
+    }
+  }
+]
